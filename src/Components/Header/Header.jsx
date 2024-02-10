@@ -33,11 +33,6 @@ const Header = () =>{
     const toggelMenu = () =>{
         setOpen(!isopen);
     }
-
-    // const closeMenu = () => {
-    //     setOpen(false);
-    //   };
-
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {

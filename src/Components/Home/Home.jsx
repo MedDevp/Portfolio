@@ -3,7 +3,7 @@ import Imgage from "../../assets/coding.png"
 const Home = () =>{
     return(
         <>
-            <div className="space-y-8 pt-32 mb-24 md:my-0 md:space-y-0 md:flex w-3/4 mx-auto md:mt-32 items-center justify-between" id="HomeSection">
+            <div className="space-y-8 pt-32 mb-24 md:my-0 md:space-y-0 md:flex w-3/4 mx-auto items-center justify-between" id="HomeSection">
                 <div className="">
                     <h1 className="text-4xl md:text-5xl font-bold text-[#42446E]">
                         Hi,👋<br />

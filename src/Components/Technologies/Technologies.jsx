@@ -9,6 +9,10 @@ import imgfigma from "../../assets/techstack/figma.png"
 import imggithub from "../../assets/techstack/github.png"
 import imgvscode from "../../assets/techstack/vscode.png"
 import imgmysql from "../../assets/techstack/mysql.png"
+import imgjava from"../../assets/techstack/java.png"
+import imgphp from"../../assets/techstack/php.png"
+import imgUML from"../../assets/techstack/UML.png"
+
 
 const Technologies = () =>{
     return(
@@ -19,20 +23,23 @@ const Technologies = () =>{
                     <h2 className="text-sm md:text-md py-2 text-[#666666]"> Technologies I’ve been working with recently</h2>
                 </div>
                 <div className=" flex flex-col space-y-12">
-                    <div className="grid grid-cols-3 md:grid-cols-5 justify-between gap-12">
+                    <div className="grid grid-cols-3 md:grid-cols-6 justify-between gap-12">
                         <img src={imghtml} alt="" className=" "/>
                         <img src={imgcss} alt="" className=" "/>
                         <img src={imgjs} alt="" className=" "/>
                         <img src={imgreact} alt="" className=" "/>
                         <img src={imgtailwind} alt="" className=" "/>
+                        <img src={imgjava} alt="" className=" "/>
                     </div>
-                    <div className="grid grid-cols-3 md:grid-cols-5 justify-between gap-12">
+                    <div className="grid grid-cols-3 md:grid-cols-6 justify-between gap-12">
                         
                         <img src={imggit} alt="" className=" "/>
                         <img src={imgfigma} alt="" className=" "/>
                         <img src={imggithub} alt="" className=" "/>
                         <img src={imgvscode} alt="" className=" "/>
                         <img src={imgmysql} alt="" className=" "/>
+                        <img src={imgphp} alt="" className=" "/>
+                        <img src={imgUML} alt="" className=" "/>
 
                     </div>
                 </div>
