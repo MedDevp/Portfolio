@@ -9,8 +9,9 @@ const About = () =>{
                 <div>
                     <h1 className="text-[#42446E] text-4xl font-bold">About Me</h1>
                     <p className="text-sm md:text-md md:w-3/5 pt-8 text-[#666666]">
-                        Hello, I'm Mohamed Abail, a 19-year-old student from Agadir. Currently, I'm studying Computer Science at the High School of Technology Fkih Ben Salh, in my second year of the DUT program. I have a strong passion for technology and enjoy exploring its various aspects. Outside of school, I like coding and working on different projects.
+                            Hello, I'm Mohamed Abail, a 19-year-old student from Agadir. Currently, I'm studying Computer Science at the High School of Technology Fkih Ben Salh, in my second year of the DUT program. I have a strong passion for technology and enjoy exploring its various aspects. Outside of school, I like coding and working on different projects.
                     </p>
+                    
                 </div>
                 <div className="space-y-12 my-12 md:w-4/5">
                     <h1 className="text-[#42446E] text-4xl font-bold">Education</h1>
