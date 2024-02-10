@@ -7,7 +7,7 @@ import { useState  , useEffect  } from "react";
 const navlin = [
     {
         link : "Home",
-        url : "#Home"
+        url : "#HomeSection"
     },
     {
         link : "About",
@@ -33,6 +33,10 @@ const Header = () =>{
     const toggelMenu = () =>{
         setOpen(!isopen);
     }
+
+    // const closeMenu = () => {
+    //     setOpen(false);
+    //   };
 
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -66,7 +70,7 @@ const Header = () =>{
                         {
                             navlin.map((value,index) =>{
                                 return(
-                                    <li key={index}><a href={value.url} className="hover:text-[#13B0F5] transition-all duration-300">{value.link}</a></li>
+                                    <li key={index}><a href={value.url}   className="hover:text-[#13B0F5] transition-all duration-300">{value.link}</a></li>
                                 )
                             })
                         }
@@ -95,7 +99,7 @@ const Header = () =>{
                 </button>
                 </div>
                 <div className="block md:hidden z-50" onClick={toggelMenu}>
-                    <a href="#" >
+                    <a >
                         <FontAwesomeIcon icon={isopen ? faTimes : faBars} />
                     </a>
                 </div>
