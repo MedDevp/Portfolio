@@ -10,7 +10,7 @@ import imggithub from "../../assets/techstack/github.png"
 import imgvscode from "../../assets/techstack/vscode.png"
 import imgmysql from "../../assets/techstack/mysql.png"
 import imgjava from"../../assets/techstack/java.png"
-import imgphp from"../../assets/techstack/php.png"
+import imgspring from"../../assets/techstack/spring.png"
 import imgUML from"../../assets/techstack/UML.png"
 
 
@@ -38,7 +38,7 @@ const Technologies = () =>{
                         <img src={imggithub} alt="" className=" "/>
                         <img src={imgvscode} alt="" className=" "/>
                         <img src={imgmysql} alt="" className=" "/>
-                        <img src={imgphp} alt="" className=" "/>
+                        <img src={imgspring} alt="" className=" "/>
                         <img src={imgUML} alt="" className=" "/>
 
                     </div>
